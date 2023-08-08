@@ -1,0 +1,9 @@
+name                      = "bhhan"
+environment               = "dev"
+aws_region                = "ap-northeast-2"
+vpc_cidr                  = "192.168.0.0/16"
+azs                       = ["ap-northeast-2a", "ap-northeast-2b"]
+public_subnet_cidr        = ["192.168.1.0/24", "192.168.2.0/24"]
+enable_single_nat_gateway = false
+zookeeper_eip_count       = 3
+kafka_eip_count           = 3
